@@ -5,8 +5,14 @@
 #Funciones o variables      snake_case                      character_manager
 
 class CharacterManager:
+    #constructor
     def __init__(self):
         self._characters = [
+            #Guion abajo en POO existe encapsulamiento son elementos que solo pdeberias acceder a traves de metodos
+            #son propiedades que queremos aislar para que no sean modificados de otra forma distinta al metodo.
+            #python no tiene encapsulamiento forzado. por tanto por convencion usamos el _ para indicar que lo estamos encapsulando
+            #le dice q otros desarrolladores que no deberian modificarlos sin un metodo.
+            
             {
                 'id': 1,
                 'name': 'Gandalf',
